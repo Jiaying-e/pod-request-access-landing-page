@@ -12,7 +12,7 @@
   <!--css-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
 
   <title>Frontend Mentor | Pod request access landing page</title>
 </head>
@@ -20,23 +20,40 @@
 <body>
   <img src="assets/desktop/bg-pattern-dots.svg" class="dots" alt="dots">
   <img src="assets/desktop/logo.svg" class="logo" alt="logo">
-  <div class="mainContainer">
+  <div class="main-container">
 
-    <div class="backgroundimage"></div>
+    <div class="background-image"></div>
 
     <div class="text">
       <h1 class="header">
         <span class="header-green">publish your podcasts</span>
         <span class="header-white">everywhere.</span>
       </h1>
-      <P>Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify,
+      <P class="body">Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify,
         Apple Podcasts, Google Podcasts, Pocket Casts and more!</P>
+
+      <input class="text-input" type="text" id="email" name="email" placeholder="Email Address">
+      <button class="text-button" id="inputbutton">Request access</button>
+
+      <p class="text-error--hidden" id="errortext">.</p>
+
+      <div class="logos">
+        <img src="assets/desktop/spotify.svg" alt="spotify">
+        <img src="assets/desktop/apple-podcast.svg" alt="podcast">
+        <img src="assets/desktop/google-podcasts.svg" alt="google">
+        <img src="assets/desktop/pocket-casts.svg" alt="casts">
+
+      </div>
+
+
     </div>
 
   
 
   
-    Request access
+
   </div>
+
+  <script src= "app.js"></script>
 </body>
 </html>

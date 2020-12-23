@@ -1,0 +1,130 @@
+body {
+    width: 100vh;
+    height: 100vw;
+    background-color: #121725;
+}
+
+.main-container {
+    width: 1275px;
+    height: 640px;
+    margin: 130px 0px 130px 165px;
+
+}
+
+.background-image{ 
+    width: 888px;
+    height: 640px;
+    position: absolute;
+    margin-left: 387px;
+    background-image: url(../assets/desktop/image-host.jpg);
+
+}
+
+.text {
+    width: 723px;
+    height: 509px;
+    position: absolute;
+    margin: 131px 552px 0px 0px;
+    background-color: #121725;
+
+}
+
+.header {
+    font-family: 'Chivo';
+    font-weight: normal;
+    font-size: 52px;
+    font-style: normal;
+    line-height: 62px;
+    text-transform: uppercase;
+    margin-top: 58px;
+}
+
+.header-green {
+    color: #54E6AF;
+}
+
+.header-white {
+    color: white;
+}
+
+.body {
+    font-family: 'Chivo';
+    font-weight: normal;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 28px;
+    color: rgba(194, 203, 229, 1);
+    width: 445px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.text-input {
+    width: 427px;
+    height: 56px;
+    border-radius: 28px;
+    position: absolute;
+    background-color: #2C344B;
+    font-family: 'Chivo';
+    color: white;
+    border: none;
+    margin-bottom: 64px;
+    padding-left: 32px;
+}
+
+.text-button {
+    width: 180px;
+    height: 46px;
+    border-radius: 28px;
+    position: absolute;
+    background-color: rgba(84, 230, 175, 1);
+    font-family: "Chivo";
+    color: black;
+    border: none;
+    margin: 5px 5px 5px 242px;
+}
+
+ #errortext {
+    font-family: 'Chivo';
+    color:#121725;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 104px;
+    margin-left: 32px;
+
+}
+
+.text-error--visible {
+    font-family: 'Chivo';
+    color:rgba(251, 62, 62, 1);
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 104px;
+    margin-left: 32px;
+
+}
+
+.logos {
+    width: 500px;
+    height:17px;
+    position: absolute;
+    display: inline-flex;
+    margin-top: 50px;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo {
+    position: absolute;
+    z-index: 1;
+    margin-top: -40px;
+    margin-left: 130px;
+}
+
+.dots {
+    position: absolute;
+    z-index: 1;
+    margin: 560px 0px 78px 1208px;
+
+}
